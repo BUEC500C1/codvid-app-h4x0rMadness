@@ -4,7 +4,7 @@ a real-time app checking number of infected people within regions using React.
 
 # Project Usage
 
-# How to Reproduce (be as cool)
+# How to Reproduce (***be as cool***)
 
 ## Step 1: [Setup your React Native environment](https://reactnative.dev/docs/environment-setup)
 <p align="center">
