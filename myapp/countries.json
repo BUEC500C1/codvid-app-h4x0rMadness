@@ -1,77 +1,5 @@
 [
   {
-    "CountryName": "Somaliland",
-    "CapitalName": "Hargeisa",
-    "CapitalLatitude": "9.55",
-    "CapitalLongitude": "44.050000",
-    "CountryCode": "NULL",
-    "ContinentName": "Africa"
-  },
-  {
-    "CountryName": "South Georgia and South Sandwich Islands",
-    "CapitalName": "King Edward Point",
-    "CapitalLatitude": "-54.283333",
-    "CapitalLongitude": "-36.500000",
-    "CountryCode": "GS",
-    "ContinentName": "Antarctica"
-  },
-  {
-    "CountryName": "French Southern and Antarctic Lands",
-    "CapitalName": "Port-aux-FranÃ§ais",
-    "CapitalLatitude": "-49.35",
-    "CapitalLongitude": "70.216667",
-    "CountryCode": "TF",
-    "ContinentName": "Antarctica"
-  },
-  {
-    "CountryName": "Palestine",
-    "CapitalName": "Jerusalem",
-    "CapitalLatitude": "31.766666666666666",
-    "CapitalLongitude": "35.233333",
-    "CountryCode": "PS",
-    "ContinentName": "Asia"
-  },
-  {
-    "CountryName": "Aland Islands",
-    "CapitalName": "Mariehamn",
-    "CapitalLatitude": "60.116667",
-    "CapitalLongitude": "19.900000",
-    "CountryCode": "AX",
-    "ContinentName": "Europe"
-  },
-  {
-    "CountryName": "Nauru",
-    "CapitalName": "Yaren",
-    "CapitalLatitude": "-0.5477",
-    "CapitalLongitude": "166.920867",
-    "CountryCode": "NR",
-    "ContinentName": "Australia"
-  },
-  {
-    "CountryName": "Saint Martin",
-    "CapitalName": "Marigot",
-    "CapitalLatitude": "18.0731",
-    "CapitalLongitude": "-63.082200",
-    "CountryCode": "MF",
-    "ContinentName": "North America"
-  },
-  {
-    "CountryName": "Tokelau",
-    "CapitalName": "Atafu",
-    "CapitalLatitude": "-9.166667",
-    "CapitalLongitude": "-171.833333",
-    "CountryCode": "TK",
-    "ContinentName": "Australia"
-  },
-  {
-    "CountryName": "Western Sahara",
-    "CapitalName": "El-AaiÃºn",
-    "CapitalLatitude": "27.153611",
-    "CapitalLongitude": "-13.203333",
-    "CountryCode": "EH",
-    "ContinentName": "Africa"
-  },
-  {
     "CountryName": "Afghanistan",
     "CapitalName": "Kabul",
     "CapitalLatitude": "34.516666666666666",
@@ -94,14 +22,6 @@
     "CapitalLongitude": "3.050000",
     "CountryCode": "DZ",
     "ContinentName": "Africa"
-  },
-  {
-    "CountryName": "American Samoa",
-    "CapitalName": "Pago Pago",
-    "CapitalLatitude": "-14.266666666666667",
-    "CapitalLongitude": "-170.700000",
-    "CountryCode": "AS",
-    "ContinentName": "Australia"
   },
   {
     "CountryName": "Andorra",
@@ -128,14 +48,6 @@
     "ContinentName": "North America"
   },
   {
-    "CountryName": "Antigua and Barbuda",
-    "CapitalName": "Saint John's",
-    "CapitalLatitude": "17.116666666666667",
-    "CapitalLongitude": "-61.850000",
-    "CountryCode": "AG",
-    "ContinentName": "North America"
-  },
-  {
     "CountryName": "Argentina",
     "CapitalName": "Buenos Aires",
     "CapitalLatitude": "-34.583333333333336",
@@ -150,14 +62,6 @@
     "CapitalLongitude": "44.500000",
     "CountryCode": "AM",
     "ContinentName": "Europe"
-  },
-  {
-    "CountryName": "Aruba",
-    "CapitalName": "Oranjestad",
-    "CapitalLatitude": "12.516666666666667",
-    "CapitalLongitude": "-70.033333",
-    "CountryCode": "AW",
-    "ContinentName": "North America"
   },
   {
     "CountryName": "Australia",
@@ -200,14 +104,6 @@
     "ContinentName": "Asia"
   },
   {
-    "CountryName": "Bangladesh",
-    "CapitalName": "Dhaka",
-    "CapitalLatitude": "23.716666666666665",
-    "CapitalLongitude": "90.400000",
-    "CountryCode": "BD",
-    "ContinentName": "Asia"
-  },
-  {
     "CountryName": "Barbados",
     "CapitalName": "Bridgetown",
     "CapitalLatitude": "13.1",
@@ -238,14 +134,6 @@
     "CapitalLongitude": "-88.766667",
     "CountryCode": "BZ",
     "ContinentName": "Central America"
-  },
-  {
-    "CountryName": "Benin",
-    "CapitalName": "Porto-Novo",
-    "CapitalLatitude": "6.483333333333333",
-    "CapitalLongitude": "2.616667",
-    "CountryCode": "BJ",
-    "ContinentName": "Africa"
   },
   {
     "CountryName": "Bermuda",
@@ -296,14 +184,6 @@
     "ContinentName": "South America"
   },
   {
-    "CountryName": "British Virgin Islands",
-    "CapitalName": "Road Town",
-    "CapitalLatitude": "18.416666666666668",
-    "CapitalLongitude": "-64.616667",
-    "CountryCode": "VG",
-    "ContinentName": "North America"
-  },
-  {
     "CountryName": "Brunei Darussalam",
     "CapitalName": "Bandar Seri Begawan",
     "CapitalLatitude": "4.883333333333333",
@@ -318,14 +198,6 @@
     "CapitalLongitude": "23.316667",
     "CountryCode": "BG",
     "ContinentName": "Europe"
-  },
-  {
-    "CountryName": "Burkina Faso",
-    "CapitalName": "Ouagadougou",
-    "CapitalLatitude": "12.366666666666667",
-    "CapitalLongitude": "-1.516667",
-    "CountryCode": "BF",
-    "ContinentName": "Africa"
   },
   {
     "CountryName": "Myanmar",
@@ -376,14 +248,6 @@
     "ContinentName": "Africa"
   },
   {
-    "CountryName": "Cayman Islands",
-    "CapitalName": "George Town",
-    "CapitalLatitude": "19.3",
-    "CapitalLongitude": "-81.383333",
-    "CountryCode": "KY",
-    "ContinentName": "North America"
-  },
-  {
     "CountryName": "Central African Republic",
     "CapitalName": "Bangui",
     "CapitalLatitude": "4.366666666666666",
@@ -415,22 +279,7 @@
     "CountryCode": "CN",
     "ContinentName": "Asia"
   },
-  {
-    "CountryName": "Christmas Island",
-    "CapitalName": "The Settlement",
-    "CapitalLatitude": "-10.416666666666666",
-    "CapitalLongitude": "105.716667",
-    "CountryCode": "CX",
-    "ContinentName": "Australia"
-  },
-  {
-    "CountryName": "Cocos Islands",
-    "CapitalName": "West Island",
-    "CapitalLatitude": "-12.166666666666666",
-    "CapitalLongitude": "96.833333",
-    "CountryCode": "CC",
-    "ContinentName": "Australia"
-  },
+
   {
     "CountryName": "Colombia",
     "CapitalName": "Bogota",
@@ -462,14 +311,6 @@
     "CapitalLongitude": "15.283333",
     "CountryCode": "CG",
     "ContinentName": "Africa"
-  },
-  {
-    "CountryName": "Cook Islands",
-    "CapitalName": "Avarua",
-    "CapitalLatitude": "-21.2",
-    "CapitalLongitude": "-159.766667",
-    "CountryCode": "CK",
-    "ContinentName": "Australia"
   },
   {
     "CountryName": "Costa Rica",
@@ -614,22 +455,6 @@
     "CapitalLongitude": "38.700000",
     "CountryCode": "ET",
     "ContinentName": "Africa"
-  },
-  {
-    "CountryName": "Falkland Islands",
-    "CapitalName": "Stanley",
-    "CapitalLatitude": "-51.7",
-    "CapitalLongitude": "-57.850000",
-    "CountryCode": "FK",
-    "ContinentName": "South America"
-  },
-  {
-    "CountryName": "Faroe Islands",
-    "CapitalName": "Torshavn",
-    "CapitalLatitude": "62",
-    "CapitalLongitude": "-6.766667",
-    "CountryCode": "FO",
-    "ContinentName": "Europe"
   },
   {
     "CountryName": "Fiji",
@@ -1112,14 +937,6 @@
     "ContinentName": "Europe"
   },
   {
-    "CountryName": "Marshall Islands",
-    "CapitalName": "Majuro",
-    "CapitalLatitude": "7.1",
-    "CapitalLongitude": "171.383333",
-    "CountryCode": "MH",
-    "ContinentName": "Australia"
-  },
-  {
     "CountryName": "Mauritania",
     "CapitalName": "Nouakchott",
     "CapitalLatitude": "18.066666666666666",
@@ -1288,14 +1105,6 @@
     "ContinentName": "Australia"
   },
   {
-    "CountryName": "Northern Mariana Islands",
-    "CapitalName": "Saipan",
-    "CapitalLatitude": "15.2",
-    "CapitalLongitude": "145.750000",
-    "CountryCode": "MP",
-    "ContinentName": "Australia"
-  },
-  {
     "CountryName": "Norway",
     "CapitalName": "Oslo",
     "CapitalLatitude": "59.916666666666664",
@@ -1366,14 +1175,6 @@
     "CapitalLongitude": "120.966667",
     "CountryCode": "PH",
     "ContinentName": "Asia"
-  },
-  {
-    "CountryName": "Pitcairn Islands",
-    "CapitalName": "Adamstown",
-    "CapitalLatitude": "-25.066666666666666",
-    "CapitalLongitude": "-130.083333",
-    "CountryCode": "PN",
-    "ContinentName": "Australia"
   },
   {
     "CountryName": "Poland",
@@ -1576,14 +1377,6 @@
     "ContinentName": "Europe"
   },
   {
-    "CountryName": "Solomon Islands",
-    "CapitalName": "Honiara",
-    "CapitalLatitude": "-9.433333333333334",
-    "CapitalLongitude": "159.950000",
-    "CountryCode": "SB",
-    "ContinentName": "Australia"
-  },
-  {
     "CountryName": "Somalia",
     "CapitalName": "Mogadishu",
     "CapitalLatitude": "2.066666666666667",
@@ -1760,14 +1553,6 @@
     "ContinentName": "Asia"
   },
   {
-    "CountryName": "Turks and Caicos Islands",
-    "CapitalName": "Grand Turk",
-    "CapitalLatitude": "21.466666666666665",
-    "CapitalLongitude": "-71.133333",
-    "CountryCode": "TC",
-    "ContinentName": "North America"
-  },
-  {
     "CountryName": "Tuvalu",
     "CapitalName": "Funafuti",
     "CapitalLatitude": "-8.516666666666667",
@@ -1856,14 +1641,6 @@
     "ContinentName": "Asia"
   },
   {
-    "CountryName": "US Virgin Islands",
-    "CapitalName": "Charlotte Amalie",
-    "CapitalLatitude": "18.35",
-    "CapitalLongitude": "-64.933333",
-    "CountryCode": "VI",
-    "ContinentName": "North America"
-  },
-  {
     "CountryName": "Wallis and Futuna",
     "CapitalName": "Mata-Utu",
     "CapitalLatitude": "-13.95",
@@ -1896,14 +1673,6 @@
     "ContinentName": "Africa"
   },
   {
-    "CountryName": "US Minor Outlying Islands",
-    "CapitalName": "Washington",
-    "CapitalLatitude": " D.C.",
-    "CapitalLongitude": "38.883333",
-    "CountryCode": "-77.000000",
-    "ContinentName": "UM"
-  },
-  {
     "CountryName": "Antarctica",
     "CapitalName": "N/A",
     "CapitalLatitude": "0",
@@ -1918,14 +1687,6 @@
     "CapitalLongitude": "33.366667",
     "CountryCode": "NULL",
     "ContinentName": "Europe"
-  },
-  {
-    "CountryName": "Heard Island and McDonald Islands",
-    "CapitalName": "N/A",
-    "CapitalLatitude": "0",
-    "CapitalLongitude": "0.000000",
-    "CountryCode": "HM",
-    "ContinentName": "Antarctica"
   },
   {
     "CountryName": "British Indian Ocean Territory",
