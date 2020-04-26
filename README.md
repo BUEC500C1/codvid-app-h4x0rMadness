@@ -13,11 +13,15 @@ make sure you have react-native installed, then in the folder:
 ~~~
 cd myadd/ios
 pod install
+~~~
+
+make sure you have google geocoding api key and replace it in App.js
+~~~
 cd ..
 react-native run-ios
 ~~~
 
-# How to Reproduce (***be as cool***)
+# How to Reproduce 
 
 ## Step 1: [Setup your React Native environment](https://reactnative.dev/docs/environment-setup)
 <p align="center">
@@ -68,4 +72,10 @@ react-native run-ios
 <p align="center">
     Communicating with Covid API and get back data (refreshed in-time data) when pressed.
 </p>
-  
+<p align="center">
+    <img src="https://github.com/BUEC500C1/codvid-app-h4x0rMadness/blob/master/images/8.jpg" width="40%"/>
+    <img src="https://github.com/BUEC500C1/codvid-app-h4x0rMadness/blob/master/images/9.jpg" width="40%"/>
+</p>
+<p align="center">
+    When the marker on map is clicked, the updated data will be displayed.
+</p>
