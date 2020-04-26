@@ -545,14 +545,6 @@
     "ContinentName": "Europe"
   },
   {
-    "CountryName": "Greenland",
-    "CapitalName": "Nuuk",
-    "CapitalLatitude": "64.18333333333334",
-    "CapitalLongitude": "-51.750000",
-    "CountryCode": "GL",
-    "ContinentName": "Central America"
-  },
-  {
     "CountryName": "Grenada",
     "CapitalName": "Saint George's",
     "CapitalLatitude": "12.05",
