@@ -76,7 +76,10 @@ class Display_Markers extends Component
     }
     
     get_country(lat, lon) {
-        fetch("https://maps.googleapis.com/maps/api/geocode/json?latlng="+lat+","+lon+"&result_type=country&key=YOUR_API_KEY"
+        //https://maps.googleapis.com/maps/api/geocode/json?latlng=40.714224,-73.961452&key=YOUR_API_KEY
+        //https://maps.googleapis.com/maps/api/geocode/json?latlng=45,-75&key=AIzaSyD3KeUMIqlikl0HLvhqojXGOZ6e6EfLDdg
+        //"https://maps.googleapis.com/maps/api/geocode/json?latlng="+lat+","+lon+"&result_type=country&key=AIzaSyD3KeUMIqlikl0HLvhqojXGOZ6e6EfLDdg"
+        fetch("https://maps.googleapis.com/maps/api/geocode/json?latlng="+lat+","+lon+"&result_type=country&key=AIzaSyD3KeUMIqlikl0HLvhqojXGOZ6e6EfLDdg"
         )
             .then((response) => response.json())
             .then(responseJson => {
@@ -138,7 +141,7 @@ class Display_Data extends Component {
         console.log("c in dd: " + this.state.confirmed);
         return (
             <View
-                style={{position: 'absolute', top: 700, left: 0, right: 0, bottom: 0, justifyContent: 'center',
+                style={{position: 'absolute', top: 500, left: 0, right: 0, bottom: 0, justifyContent: 'center',
                     alignItems: 'flex-start' }}>
                 <Text style={{fontSize: 20, color: 'white'}}>
                     Country:  {this.state.country}
@@ -156,6 +159,47 @@ class Display_Data extends Component {
         );
     }
 }
+class Total_Summary extends Component {
+    constructor() {
+        super();
+        this.state = {
+            confirmed: '',
+            deaths: '',
+            recovered: '',
+        }
+    }
+    componentDidMount() {
+        //https://api.covid19api.com/summary
+        fetch("https://api.covid19api.com/summary")
+            .then((response) => response.json())
+            .then(responseJson => {
+                if (responseJson[Object.keys(responseJson)[Object.keys(responseJson).length - 1]]) {
+                    this.setState({
+                        confirmed: responseJson['Global']['TotalConfirmed'],
+                        deaths: responseJson['Global']['TotalDeaths'],
+                        recovered: responseJson['Global']['TotalRecovered'],
+                    });
+                }
+            });
+    }
+    render() {
+        return (
+            <View
+                style={{position: 'absolute', top: 700, left: 0, right: 0, bottom: 0, justifyContent: 'center',
+                    alignItems: 'flex-start' }}>
+                <Text style={{fontSize: 20, color: 'white'}}>
+                    Total Confirmed:  {this.state.confirmed}
+                </Text>
+                <Text style={{fontSize: 20, color: 'white'}}>
+                    Total Deaths:         {this.state.deaths}
+                </Text>
+                <Text style={{fontSize: 20, color: 'white'}}>
+                    Total Recovered:  {this.state.recovered}
+                </Text>
+            </View>
+        )
+    }
+}
 export default class App extends Component {
     
     render() {
@@ -168,6 +212,7 @@ export default class App extends Component {
                     style={styles.map}
                     mapType={"hybrid"}
                     maxZoomLevel={3}>
+                    <Total_Summary/>
                     <Display_Markers/>
                     
                 </MapView>
