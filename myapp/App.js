@@ -76,10 +76,7 @@ class Display_Markers extends Component
     }
     
     get_country(lat, lon) {
-        //https://maps.googleapis.com/maps/api/geocode/json?latlng=40.714224,-73.961452&key=YOUR_API_KEY
-        //https://maps.googleapis.com/maps/api/geocode/json?latlng=45,-75&key=AIzaSyD3KeUMIqlikl0HLvhqojXGOZ6e6EfLDdg
-        //"https://maps.googleapis.com/maps/api/geocode/json?latlng="+lat+","+lon+"&result_type=country&key=AIzaSyD3KeUMIqlikl0HLvhqojXGOZ6e6EfLDdg"
-        fetch("https://maps.googleapis.com/maps/api/geocode/json?latlng="+lat+","+lon+"&result_type=country&key=AIzaSyD3KeUMIqlikl0HLvhqojXGOZ6e6EfLDdg"
+        fetch("https://maps.googleapis.com/maps/api/geocode/json?latlng="+lat+","+lon+"&result_type=country&key=YOUR_API_KEY"
         )
             .then((response) => response.json())
             .then(responseJson => {
