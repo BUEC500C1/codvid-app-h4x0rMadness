@@ -1,13 +1,22 @@
-import React, { Component } from 'react';
-import { View, Platform, StyleSheet, Text } from 'react-native';
+import React, { Component, useState } from 'react';
+import { DatePickerIOS, View, Platform, StyleSheet, Text } from 'react-native';
 import MapView, {Circle, Marker} from 'react-native-maps';
-import MapCircle from "react-native-maps/lib/components/MapCircle";
-import MapMarker from "react-native-maps/lib/components/MapMarker";
 import data from "./countries";
+import DatePicker from 'react-native-datepicker';
+
+
 const styles = StyleSheet.create({
     container: {
-        ...StyleSheet.absoluteFillObject,
+        flex: 1,
+        alignItems: 'center',
+        justifyContent:'center',
+        marginTop: 50,
+        padding:16,
+        zIndex: 0,
     },
+    //container: {
+    //    ...StyleSheet.absoluteFillObject,
+    //},
     map: {
         width: "100%",
         height: "100%",
@@ -200,21 +209,66 @@ class Total_Summary extends Component {
         )
     }
 }
+class Date_Picker extends Component {
+    constructor() {
+        super();
+        this.state = {date: "02-02-2020"}
+
+    }
+    
+    render() {
+        console.log(new Date());
+        return (
+            <View>
+                <DatePicker
+                    style={{width: 500}}
+                    date={this.state.date} //initial date from state
+                    mode="date" //The enum of date, datetime and time
+                    format="DD-MM-YYYY"
+                    minDate="01-01-2000"
+                    maxDate="01-01-2001"
+                    confirmBtnText="Select"
+                    cancelBtnText="Cancel"
+                    customStyles={{
+                        dateIcon: {
+                            position: 'absolute',
+                            left: 10,
+                            top: 750,
+                            marginLeft: 2
+                        },
+                        dateInput: {
+                            marginLeft: 100
+                        }
+                    }}
+                    //onDateChange={(date) => {this.setState({date: date})}}
+                />
+            </View>
+        )
+    }
+
+}
 export default class App extends Component {
     
     render() {
-        
         return (
+            
             <View style={{position: 'relative', height: "100%"}}>
 
 
                 <MapView
+                    
                     style={styles.map}
                     mapType={"hybrid"}
                     maxZoomLevel={3}>
+
+                    
+
+                    
+
                     <Total_Summary/>
                     <Display_Markers/>
                     
+                    <Date_Picker/>
                 </MapView>
                 
                 
