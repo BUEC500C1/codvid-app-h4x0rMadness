@@ -3,6 +3,10 @@
 a real-time app checking number of infected people within regions using React.
 <p align="center">
     <img title="Apple Map Version" src="https://github.com/BUEC500C1/codvid-app-h4x0rMadness/blob/master/images/10.jpg" width="40%"/>
+</p>
+<p align="center">
+    <img src="https://github.com/BUEC500C1/codvid-app-h4x0rMadness/blob/master/images/12.jpg" width="40%"/>
+</p>
 
 # Project Usage
 ## (this is a incomplete version, latest is in progress)
@@ -86,4 +90,11 @@ react-native run-ios
 </p>
 <p align="center">
     Displaying Gloabl Summary and Country Local Summary.
+</p>
+<p align="center">
+    <img src="https://github.com/BUEC500C1/codvid-app-h4x0rMadness/blob/master/images/11.jpg" width="40%"/>
+    <img src="https://github.com/BUEC500C1/codvid-app-h4x0rMadness/blob/master/images/12.jpg" width="40%"/>
+</p>
+<p align="center">
+    Selecting date with specific component.
 </p>
